@@ -42,7 +42,7 @@ mainBodyContent.style.gridTemplateRows = "[first] auto [end]"
 
 document.getElementById("juviImage").style.width = "-webkit-fill-available"
 document.getElementById("juviImage").style.padding = "20px"
-document.getElementById("juviImage").style.borderRadius = "50%"
+document.getElementById("juviImage").style.borderRadius = "20%"
 //makes the content be aligned in the middle for the text. The rest also adds css to the h1 tag and text
 document.getElementById("mainText").style.textAlign = "center"
 document.getElementById("mainText").style.padding = "20px"
