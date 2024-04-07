@@ -4,20 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./sass/styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+  crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="navbar">
-        <div class="navbarRight">
-            <span><a id = 'resume'>Resume</a></span>
-            <span><a id = 'about'>About</a></span>
-            <span><img id='logo'></span>
-            <span><a id = 'gallery'>Gallery</a></span>
-            <span><a id = 'contact'>Contact</a></span>
-        </div>
+        <span><a id = 'resume'>Resume</a></span>
+        <span><a id = 'about'>About</a></span>
+        <span><img id='logo'></span>
+        <span><a id = 'gallery'>Gallery</a></span>
+        <span><a id = 'contact'>Contact</a></span>
     </div>
-    <div id="main-content">
-        <span><h1 id = 'mainText'>Hello, <br> My name is Juvraj Singh!</h1></span>
+    <div class="main-content">
+        <div class="main-text">
+            <span><h1 style="font-size: 150px;">Juvraj Singh</h1></span>
+        </div>
         <span><img id='juviImage' src="./juvi.avif"></span>
     </div>
     <script src="app.js"></script>
