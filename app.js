@@ -32,11 +32,6 @@ contact.addEventListener('mouseout', () => {
 });
 
 
-$document.ready(function(){
-    $('#name').hide(1000)
-});
-
-
 
 
 // var mainBodyContent = document.getElementById('main-content')
