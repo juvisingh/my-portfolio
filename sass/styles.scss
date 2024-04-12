@@ -3,7 +3,7 @@ $secondary-color: #004f3a;
 $tertiary-color: #f2bc94;
 @font-face {
     font-family: myFont;
-    src: url(/Rogie-jEXrO.ttf);
+    src: url(../Rogie-jEXrO.ttf);
 }
 html {
     background-color: $primary-color;
@@ -71,12 +71,13 @@ html {
     border-radius: 5%;
     height: 80vh;
     width: 40vw;
+    font-size: 1.65vh;
 }
 
 button {
     font-family: myFont;
-    height: 4em;
-    width: 10em;
+    height: 7vh;
+    width: 12vw;
     background: transparent;
     -webkit-animation: jello-horizontal 0.9s both;
     animation: jello-horizontal 0.9s both;
@@ -87,6 +88,7 @@ button {
     font-size: 17px;
     background-color: $tertiary-color;
     margin-top: 30px;
+    min-width: 118px;
 }
 
 button:hover {
@@ -149,3 +151,4 @@ button:hover {
     display: flex;
     justify-content: center;
 }
+

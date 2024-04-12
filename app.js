@@ -59,3 +59,5 @@ $document.ready(function(){
 // document.getElementById("mainText").style.width = "-webkit-fill-available"
 // document.getElementById("mainText").style.display = "flex"
 // document.getElementById("mainText").style.alignItems = "center"
+
+

@@ -1,6 +1,6 @@
 @font-face {
   font-family: myFont;
-  src: url(/Rogie-jEXrO.ttf);
+  src: url(../Rogie-jEXrO.ttf);
 }
 html {
   background-color: #00154f;
@@ -74,12 +74,13 @@ html {
   border-radius: 5%;
   height: 80vh;
   width: 40vw;
+  font-size: 1.65vh;
 }
 
 button {
   font-family: myFont;
-  height: 4em;
-  width: 10em;
+  height: 7vh;
+  width: 12vw;
   background: transparent;
   animation: jello-horizontal 0.9s both;
   border: 2px solid #f2bc94;
@@ -89,6 +90,7 @@ button {
   font-size: 17px;
   background-color: #f2bc94;
   margin-top: 30px;
+  min-width: 118px;
 }
 
 button:hover {
