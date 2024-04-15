@@ -196,7 +196,7 @@ footer {
 }
 .gallery {
     display: grid;
-    padding-left: 100px;
+    padding-left: 50px;
     padding-right: 100px;
     grid-template-columns: [uno] 50% [dos] 50% [end];
     grid-template-rows: [u] auto [d] auto [end];
@@ -210,14 +210,17 @@ footer {
 .img2 {
     grid-column: dos/end;
     grid-row: u/d;
+    border-radius: 5px;
 }
 .img3 {
     grid-column: uno/dos;
     grid-row: d/end;
+    border-radius: 5px;
 }
 .img4 {
     grid-column: dos/end;
     grid-row: d/end;
+    border-radius: 5px;
 }
 @media (max-width: 479px) {
     img {
