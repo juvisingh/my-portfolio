@@ -79,7 +79,7 @@ html {
 
 button {
   font-family: myFont;
-  height: 7vh;
+  height: 8vh;
   width: 12vw;
   background: transparent;
   animation: jello-horizontal 0.9s both;
@@ -100,6 +100,27 @@ button:hover {
   border-color: #004f3a;
 }
 
+.logoo img {
+  animation-name: rotate;
+  animation-duration: 10s;
+  animation-delay: 0s;
+  border-radius: 50%;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 @keyframes squeeze3124 {
   0% {
     transform: scale3d(1, 1, 1);
@@ -167,7 +188,7 @@ button:hover {
 
 #name {
   color: white;
-  font-size: 115px;
+  font-size: 5vw;
 }
 
 .textHome {
@@ -228,4 +249,9 @@ footer {
   img {
     width: 100%;
   }
+}
+#logo {
+  width: 5vw;
+  height: 5vw;
+  padding-top: 10px;
 }/*# sourceMappingURL=styles.css.map */
