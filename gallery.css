@@ -4,6 +4,9 @@
     font-family: myFont;
     src: url(../Rogie-jEXrO.ttf);
 }
+.navbar a:hover {
+    color: red;
+}
 #header {
     font-family: myFont;
     color: bisque;
@@ -43,7 +46,7 @@ footer {
     text-align: center;
     height: 55VH;
     overflow: hidden;
-    padding-bottom: 150px;
+    padding-bottom: 110px;
   }
   
   .image-container {
@@ -68,6 +71,7 @@ footer {
     left: 0;
     top: 0;
     width: 100%;
+    border-radius: 5px;
   }
   
   .btn-container {
