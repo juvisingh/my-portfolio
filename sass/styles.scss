@@ -196,7 +196,14 @@ button:hover {
     display: flex;
     // align-items: center;
     justify-content: center;
+    animation: fadeIn 7s;
 }
+// PROVIDED BY https://blog.hubspot.com/website/css-fade-in
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
 .quotes {
     padding: 30px;
 }
@@ -246,3 +253,54 @@ footer {
     padding-top: 10px;
 }
 
+// PROVIDED BY https://www.geeksforgeeks.org/how-to-make-horizontal-line-with-words-in-the-middle-using-css/
+h4 { 
+    display: flex; 
+    flex-direction: row; 
+    font-size: 35px;
+    color: bisque;
+} 
+  
+h4:before, 
+h4:after { 
+    content: ""; 
+    flex: 1 1; 
+    border-bottom: 2px solid white; 
+    margin: auto;
+    margin-left: 10px; 
+    margin-right: 10px; 
+} 
+
+.animated-progress {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 20px 10px;
+    border: 1px solid rgb(189, 113, 113);
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .animated-progress span {
+    height: 100%;
+    display: block;
+    width: 0;
+    color: rgb(255, 251, 251);
+    line-height: 30px;
+    position: absolute;
+    text-align: end;
+    padding-right: 5px;
+  }
+    // PROVIDED BY https://alvarotrigo.com/blog/progress-bar-css/ 
+  .progress-blue span {
+    background-color: blue;
+  }
+  .progress-green span {
+    background-color: green;
+  }
+  .progress-purple span {
+    background-color: indigo;
+  }
+  .progress-red span {
+    background-color: red;
+  }
