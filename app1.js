@@ -50,3 +50,38 @@ contact.addEventListener('mouseover', () => {
 contact.addEventListener('mouseout', () => {
     contact.style.color = 'white';
 });
+
+var startNum = 8;
+var secondNum;
+function colorChangeNext() {
+    var old = document.getElementById(startNum)
+    old.style.visibility = 'hidden'
+    if (startNum == 8) {
+        startNum = 1;
+        var current = document.getElementById(startNum)
+        current.style.visibility = "visible";
+    }
+    else {
+        startNum += 1
+        var current = document.getElementById(startNum)
+        current.style.visibility = "visible";
+    }
+    // var current = document.getElementById(startNum)
+    // current.style.color = "red";
+}
+function colorChangePrev() {
+    var old = document.getElementById(startNum)
+    old.style.visibility = 'hidden'
+    if (startNum == 1) {
+        startNum = 8;
+        var current = document.getElementById(startNum)
+        current.style.visibility = "visible";
+    }
+    else {
+        startNum -= 1
+        var current = document.getElementById(startNum)
+        current.style.visibility = "visible";
+    }
+    // var current = document.getElementById(startNum)
+    // current.style.color = "red";
+}

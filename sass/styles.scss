@@ -58,7 +58,7 @@ html {
     justify-items: center;
     align-items: center;
     justify-content: center;
-    width: 29vw;
+    width: 26vw;
     display: flex;
     margin-top: 20px;
 }
@@ -168,12 +168,12 @@ button:hover {
     border: solid;
     border-radius: 5%;
     border-color: $tertiary-color;
-    width: 29vw;
+    width: 27vw;
     height: 70vh;
     padding: 0;
-    
 }
 .landing {
+    padding-top: 20px;
     display: grid;
     grid-template-columns: [fi] 50% [se] 50% [end];
     grid-template-rows: [fir] auto [end];
@@ -276,7 +276,7 @@ h4:after {
     height: 30px;
     border-radius: 5px;
     margin: 20px 10px;
-    border: 1px solid rgb(189, 113, 113);
+    border: 1px solid bisque;
     overflow: hidden;
     position: relative;
   }
@@ -293,14 +293,5 @@ h4:after {
   }
     // PROVIDED BY https://alvarotrigo.com/blog/progress-bar-css/ 
   .progress-blue span {
-    background-color: blue;
-  }
-  .progress-green span {
-    background-color: green;
-  }
-  .progress-purple span {
-    background-color: indigo;
-  }
-  .progress-red span {
-    background-color: red;
+    background-color: #776391;
   }
