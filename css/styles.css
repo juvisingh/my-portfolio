@@ -314,4 +314,20 @@ h4:after {
 
 .progress-blue span {
   background-color: #776391;
+}
+
+.aboutus {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 50px;
+}
+
+.h22 {
+  font-size: 15px;
+  text-align: justify;
+  color: white;
+  animation: fadeIn 7s;
 }/*# sourceMappingURL=styles.css.map */

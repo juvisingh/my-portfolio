@@ -56,15 +56,22 @@ var secondNum;
 function colorChangeNext() {
     var old = document.getElementById(startNum)
     old.style.visibility = 'hidden'
+    var neww = startNum + "1"
+    var old1 = document.getElementById(neww)
+    old1.style.visibility = 'hidden'
     if (startNum == 8) {
         startNum = 1;
         var current = document.getElementById(startNum)
         current.style.visibility = "visible";
+        var gitCurrent = document.getElementById(startNum + "1")
+        gitCurrent.style.visibility = "visible";
     }
     else {
         startNum += 1
         var current = document.getElementById(startNum)
         current.style.visibility = "visible";
+        var gitCurrent = document.getElementById(startNum + "1")
+        gitCurrent.style.visibility = "visible";
     }
     // var current = document.getElementById(startNum)
     // current.style.color = "red";
@@ -72,15 +79,22 @@ function colorChangeNext() {
 function colorChangePrev() {
     var old = document.getElementById(startNum)
     old.style.visibility = 'hidden'
+    var newww = startNum + "1"
+    var old2 = document.getElementById(newww)
+    old2.style.visibility = 'hidden'
     if (startNum == 1) {
         startNum = 8;
         var current = document.getElementById(startNum)
         current.style.visibility = "visible";
+        var gitCurrent = document.getElementById(startNum + "1")
+        gitCurrent.style.visibility = "visible";
     }
     else {
         startNum -= 1
         var current = document.getElementById(startNum)
         current.style.visibility = "visible";
+        var gitCurrent = document.getElementById(startNum + "1")
+        gitCurrent.style.visibility = "visible";
     }
     // var current = document.getElementById(startNum)
     // current.style.color = "red";
