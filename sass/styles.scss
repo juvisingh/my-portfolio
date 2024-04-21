@@ -161,8 +161,9 @@ button:hover {
 #resume1 {
     margin-top: 50px;
     margin-bottom: 50px;
-    display: flex;
-    justify-content: center;
+    // display: flex;
+    // justify-content: center;
+    animation: fadeIn 7s;
 }
 #mainJuvi {
     border: solid;
@@ -309,4 +310,55 @@ padding-bottom: 50px;
     text-align: justify;
     color: white;
     animation: fadeIn 7s;
+}
+.resume-grid {
+    display: grid;
+    // padding-left: 50px;
+    // padding-right: 100px;
+    grid-template-columns: [unoo] 50% [doss] 45% [end];
+    grid-template-rows: [un] auto [do] auto [end];
+    gap: 30px;
+}
+.item-1 {
+    grid-row: un/do;
+    border: 2px solid $tertiary-color;
+    color: white;
+    text-align: center;
+    border-radius: 5%;
+    height: 30vh;
+    width: 30vw;
+    font-size: 0.85vw;
+    justify-content: center;
+}
+.item-2 {
+    grid-row: do/end;
+    border: 2px solid $tertiary-color;
+    color: white;
+    text-align: center;
+    border-radius: 5%;
+    height: 30vh;
+    width: 30vw;
+    font-size: 0.85vw;
+}
+.item-3 {
+    grid-row: un/do;
+    grid-column: doss/end;
+    border: 2px solid $tertiary-color;
+    color: white;
+    text-align: center;
+    border-radius: 5%;
+    height: 30vh;
+    width: 30vw;
+    font-size: 0.85vw;
+}
+.item-4 {
+    grid-row: do/end;
+    grid-column: doss/end;
+    border: 2px solid $tertiary-color;
+    color: white;
+    text-align: center;
+    border-radius: 5%;
+    height: 30vh;
+    width: 30vw;
+    font-size: 0.85vw;
 }
