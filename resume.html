@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
+    <link rel="icon" type="image/x-icon" href="./favicon-32x32.png">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -14,12 +15,69 @@
         <span><a id = 'gallery' href="gallery.html" style="text-decoration: none; color:white;">Gallery</a></span>
         <span><a id = 'contact' href='contact.html' style="text-decoration: none; color:white;">Contact</a></span>
     </div>
-    <center><h1 style="color: white; padding-bottom:40px; text-decoration:underline; color:bisque">Resume</h1></center>
+    <center><h1 style="color: white; padding-bottom:40px; text-decoration:underline; color:bisque;padding-left:10px;">Resume<a href="./Resume (1).pdf" download style="color:bisque;"><i class="fa-solid fa-download" style="font-size: 25px; padding-left:5px"></i></a></h1></center>
+    <div class="card-container">
+        <div class="card" id="card" class="item-1">
+          <div class="card-face card-front">
+            <h1>Objective</h1>
+          </div>
+          <div class="card-face card-back">
+            <h1>Seeking and eager for an entry level job in the software design field.
+                Knowledgeable in multiple coding programs, such as CSS, HTML, and
+                Javascript. Easy going with others and an intrigued collaborative worker.
+                Looking forward to applying the skills and experience gained diligently
+                and thoroughly to any task given.</h1>
+          </div>
+        </div>
+        <div class="card" id="card1" class="item-2">
+            <div class="card-face card-front">
+              <h1>Certifications</h1>
+            </div>
+            <div class="card-face card-back">
+              <h1><ol>
+                <li>Certification in Information Technology Specialist OD 306
+                    HTML5</li>
+                <li>Certification in Python PCAP and PCEP</li>
+                </ol></h1>
+            </div>
+          </div>
+        <div class="card" id="card2" class="item-3">
+          <div class="card-face card-front">
+            <h1>Education</h1>
+          </div>
+          <div class="card-face card-back">
+            <h1><ol>
+                <li>Mountain Ridge Highschool <em>(August 2021-Present)</em></li>
+                <li>West-MEC Coding <em>(August 2023-Present)</em></li>
+                </ol></h1>
+          </div>
+        </div>
+        <div class="card" id="card3" class="item-4">
+          <div class="card-face card-front">
+            <h1>Extracirriculars and Activities</h1>
+          </div>
+          <div class="card-face card-back">
+            <h1>
+                <ol>
+                    <li>High jumper and hurdler for Mountain Ridge Track & Field Team</li>
+                    <li>Part of National Honor Society at Mountain Ridge High School</li>
+                    <li>Placed 5th place in Public Service Announcement at FBLA
+                        Arizona State Conference 2024.</li>
+                    <h5><em>Download my full resume for more</em></h5>
+                </ol>
+            </h1>
+          </div>
+        </div>
+    </div>
 
 
-    <div id="resume1" class="resume-grid">   
+
+
+
+
+    <!-- <div id="resume1" class="resume-grid">    -->
         <!-- <iframe src="./Resume (1).pdf" title="resume" style="width: 75%; height:100vh;"></iframe> -->
-        <center>
+        <!-- <center>
         <div class="item-1">
             <center><div><h1><em>Objective</em></h1></div></center>
         </div>
@@ -39,20 +97,37 @@
             <center><div><h1><em>Extracirriculars and Activities</em></h1></div></center>
         </div>
         </center>
-    </div>
-
-
-
-
-        <footer class="footer">
-            <span><p>All rights reserved to &copy;Juvi 2024</p></span>
-            <span><a href="contact.html" style="color: black;">Contact Me</a></span>
-       </footer>
+    </div> -->
+    <footer class="footer">
+        <span><p>All rights reserved to &copy;Juvi 2024</p></span>
+        <span><a href="contact.html" style="color: black;">Contact Me</a></span>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.7.1.js"
   integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
   crossorigin="anonymous"></script>
     <script src="app.js"></script>
     <script src="jQuery.js"></script>
+    <script>
+        window.onload = function() {
+          var card = document.getElementById('card');
+          var card1 = document.getElementById('card1');
+          var card2 = document.getElementById('card2');
+          var card3 = document.getElementById('card3');
+          card.addEventListener('click', function() {
+            card.classList.toggle('flipped');
+          });
+          card1.addEventListener('click', function() {
+            card1.classList.toggle('flipped');
+          });
+          card2.addEventListener('click', function() {
+            card2.classList.toggle('flipped');
+          });
+          card3.addEventListener('click', function() {
+            card3.classList.toggle('flipped');
+          });
+        };
+    </script>
+    <script src="https://kit.fontawesome.com/4bf788c76f.js" crossorigin="anonymous"></script>
 </body>
 </html>
