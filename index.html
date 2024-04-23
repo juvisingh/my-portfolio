@@ -9,7 +9,9 @@
     <link rel="icon" type="image/x-icon" href="./favicon-32x32.png">
 </head>
 <body>
+    <!-- div for the navbar -->
     <div class="navbar">
+        <!--creates individual words for each of the pages and spaces them out evenly (in the css)-->
         <span><a id = 'resume' href="resume.html" style="text-decoration: none; color:white;">Resume</a></span>
         <span><a id = 'about' href='about.html' style="text-decoration: none; color:white;">About</a></span>
         <div class="logoo"><span><a href="index.html"><img src='./logo.png'id='logo' href="index.html" style="padding-left:13px;"></a></span></div>
@@ -20,11 +22,13 @@
         <div class="main-content">
             <div class="main-text">
             </div>
+            <!--main part of the landing page, inlcuding my image and a description of who I am-->
             <span><img id='mainJuvi' src="./juvi.png"></span>
             <center><span><h2 id="traits">Software Developer, Coder, Learner</h2></span></center>
         </div>
         <div class="textHome">
             <center>
+                <!--displays my favorite quotes that I highly appreciate-->
                 <span><h1 style="font-family:none; padding-bottom:none;" id="name">Juvraj Singh</h1></span>
                 <div class='quotes'>
                     <h2 style="font-weight: normal;">“The only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle.”</h2>
@@ -41,11 +45,13 @@
     <h4><span>Overview</span></h4>
     <div class="aboutMe">
         <span>
+            <!--professional image of myself-->
             <div id="juviImage" style="border: none;">
                 <img src="./professional.jpg" id = 'juviImage' style="width:40vw; height:80vh;">
             </div>
         </span>
         <div style="display: flex; justify-content: center;">
+            <!--list of all my skills and a button leading to my resume if wanted-->
             <div class="skills">
                 <h1 style="color:white; text-decoration: white underline;">Skills</h1>
                 <h2>Confident</h2>
@@ -64,6 +70,7 @@
     </div>
     <h4><span>Skills Progress</span></h4>
     <div class="progress">
+        <!--displays progress bars to show the user how much I have learned in specific areas of the coding world-->
         <center>
       <!-- PROVIDED BY https://alvarotrigo.com/blog/progress-bar-css/ -->
       <div style="display: inline-flex; padding-bottom:15px">
@@ -77,14 +84,14 @@
             <div style="display: inline-flex; padding-bottom:15px">
                 <span><i class="devicon-python-plain-wordmark" style="font-size:70px; color:white;"></i></span>>
                 <span><div class="animated-progress progress-blue">
-                    <span data-progress="81"></span>
+                    <span data-progress="73"></span>
                 </div></span>
               </div>
             </div>
         <div style="display: inline-flex; padding-bottom:15px">
             <span><i class="devicon-html5-plain-wordmark" style="font-size:70px; color:white;"></i></span>
             <span><div class="animated-progress progress-blue">
-                <span data-progress="72"></span>
+                <span data-progress="81"></span>
             </div></span>
         </div>
       <div>
@@ -97,6 +104,7 @@
       </div>
     </div>
 </center>
+<!--footer, universal throughout all the pages-->
 <div style="padding-top: 30px;">
     <footer class="footer">
         <span><p>All rights reserved to &copy;Juvi 2024</p></span>
@@ -104,7 +112,7 @@
    </footer>
 </div>
 
-
+    <!--links the various JS used in this portfolio, such as jQuery and other JS functions-->
     <script src="https://code.jquery.com/jquery-3.7.1.js"
   integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
   crossorigin="anonymous"></script>

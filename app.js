@@ -1,9 +1,15 @@
+// creates an element for the corresponding navbar elements
 var resume = document.getElementById('resume')
+// makes the code listen for when the user hovers over the corresponding text to the navbar
 resume.addEventListener('mouseover', () => {
+    //changes the color of the text to red
     resume.style.color = 'red';
+    //makes the cursor pointer so the user knows they can click on it
     resume.style.cursor ='pointer';
 });
+// makes the code listen for when the user isn't hovering over the text anymore
 resume.addEventListener('mouseout', () => {
+    // changes the color of the text back to its normal color of white
     resume.style.color = 'white';
 });
 var gallery = document.getElementById('gallery')
@@ -43,26 +49,5 @@ $(".animated-progress span").each(function () {
   });
 
 
-
-// var mainBodyContent = document.getElementById('main-content')
-// //sets the body display to grid
-// mainBodyContent.style.display = "grid"
-// mainBodyContent.style.padding = "10px"
-// //sets the rows and columns for the grid, where the image and the text will go
-// mainBodyContent.style.gridTemplateColumns = "[f] 50% [s] 50% [end]"
-// mainBodyContent.style.gridTemplateRows = "[first] auto [end]"
-
-
-// document.getElementById("juviImage").style.width = "-webkit-fill-available"
-// document.getElementById("juviImage").style.padding = "20px"
-// document.getElementById("juviImage").style.borderRadius = "20%"
-// //makes the content be aligned in the middle for the text. The rest also adds css to the h1 tag and text
-// document.getElementById("mainText").style.textAlign = "center"
-// document.getElementById("mainText").style.padding = "20px"
-// document.getElementById("mainText").style.color = "black"
-// document.getElementById("mainText").style.fontSize = "1.71vw"
-// document.getElementById("mainText").style.width = "-webkit-fill-available"
-// document.getElementById("mainText").style.display = "flex"
-// document.getElementById("mainText").style.alignItems = "center"
 
 
